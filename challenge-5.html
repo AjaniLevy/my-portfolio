@@ -3,15 +3,35 @@
 
 <head>
   <title>Challenge 5</title>
-  <style>
-    /* Style the weather report */
+  <style> 
+      head{
+        text-align: right;
+      }
 
+    /* Style the weather report */
+    dl {
+      font-family: Helvetica;
+      font-size: 20px;
+      line-height: 1.5;
+      background-color: #eee
+      Color: #333
+    }
     /* Apply the following styles to the body */
       /* font family 'Helvetica Neue' */
       /* font size 20px */
       /* line height 1.5 */
       /* Color #333 dark gray */
       /* background color #eee light gray */
+
+      dt{
+        font-size: 2em;
+        background-color: #ccc;
+      }
+      dd{
+        margin: 0
+        font-size: 1.5em;
+        background-color: #ddd
+      }
       
 
     /* Style the dt (definition title) */
@@ -23,6 +43,10 @@
       /* make the font big 1.5em */
       /* Background color #ddd */
       /* Remove the by setting margin: 0 */
+      
+      dt,dd{
+        padding: .5em;
+      }
       
 
 
@@ -68,6 +92,12 @@
 
     <dt><time datetime="2018-03-05">05 March 2018</time></dt>
     <dd>Heavy rain.</dd>
+    
+    <dt><time datetime="2018-03-06">06 March 2018</time></dt>
+    <dd>Partially Cloudy</dd>
+
+    <dt><time datetime="2018-03-07">07 March 2018</time>></dt>
+    <dd>Sunny and Clear</dd>
   </dl>
 </article>
 
